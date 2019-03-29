@@ -1,4 +1,4 @@
-# tankest
+# Tankest
 
 ## Project setup
 ```
