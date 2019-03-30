@@ -6,13 +6,6 @@
         <span class="font-weight-light">- per il piccolo Hinkie in ognuno di noi</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
     </v-toolbar>
 
     <v-content>
@@ -24,8 +17,13 @@
 </template>
 
 <script>
+import Footer from './components/Footer.vue'
+
 export default {
   name: 'App',
+  components: {
+    Footer
+  },
   data () {
     return {
       //
