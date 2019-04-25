@@ -1,91 +1,81 @@
 [{
         "name": "Breganzona Flat Earthers",
         "abbreviation": "BFE",
-        "wins": 24,
-        "losses": 27,
-        "points": 2134,
-        "chance": 32,
-        "pick": 4
+        "wins": 25,
+        "losses": 30,
+        "points": 12233.7,
+        "pick": 5
     },
     {
         "name": "AC Manila",
         "abbreviation": "ACM",
         "wins": 41,
-        "losses": 10,
-        "points": 2980,
-        "chance": 32,
+        "losses": 14,
+        "points": 14050.83,
         "pick": 10
     },
     {
         "name": "FC Arcobaleno",
         "abbreviation": "FCA",
-        "wins": 28,
-        "losses": 23,
-        "points": 3013,
-        "chance": 32,
+        "wins": 33,
+        "losses": 22,
+        "points": 14065.96,
         "pick": 7
     },
     {
         "name": "Team DeLu",
         "abbreviation": "TDL",
-        "wins": 33,
+        "wins": 37,
         "losses": 18,
-        "points": 2870,
-        "chance": 32,
-        "pick": 8
+        "points": 13771.92,
+        "pick": 9
     },
     {
         "name": "Tank For The Future",
         "abbreviation": "TFF",
-        "wins": 10,
-        "losses": 41,
-        "points": 1854,
-        "chance": 45,
+        "wins": 8,
+        "losses": 47,
+        "points": 9818.85,
         "pick": 1
     },
     {
         "name": "SkinheadOi!",
         "abbreviation": "SHO",
-        "wins": 25,
-        "losses": 26,
-        "points": 2488,
-        "chance": 32,
-        "pick": 5
+        "wins": 21,
+        "losses": 34,
+        "points": 12066.77,
+        "pick": 3
     },
     {
         "name": "MC Town 92ers",
-        "abbreviation": "M92",
-        "wins": 25,
-        "losses": 26,
-        "points": 2570,
-        "chance": 32,
+        "abbreviation": "MCT",
+        "wins": 31,
+        "losses": 24,
+        "points": 13261.48,
         "pick": 6
     },
     {
         "name": "MC Town Winepress",
         "abbreviation": "MTW",
-        "wins": 15,
-        "losses": 36,
-        "points": 1913,
-        "chance": 32,
+        "wins": 18,
+        "losses": 37,
+        "points": 10771.91,
         "pick": 2
     },
     {
         "name": "MM17",
-        "abbreviation": "MM",
+        "abbreviation": "M17",
         "wins": 36,
-        "losses": 15,
-        "points": 2134,
-        "chance": 32,
-        "pick": 9
+        "losses": 19,
+        "points": 13659.87,
+        "pick": 8
     },
     {
         "name": "All Eyes North",
         "abbreviation": "AEN",
-        "wins": 21,
+        "wins": 25,
         "losses": 30,
-        "points": 2098,
-        "chance": 32,
-        "pick": 3
+        "points": 12132.83,
+        "pick": 4
     }
 ]
