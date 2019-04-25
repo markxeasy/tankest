@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar app color="orange">
       <v-toolbar-title class="headline text-uppercase">
-        <span>Tankest</span>
+        <span class="white--text">Tankest</span>
         <span class="font-weight-light">- per il piccolo Hinkie in ognuno di noi</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -11,19 +11,22 @@
     <v-content>
       <!-- route outlet -->
       <!-- component matched by the route will render here -->
-      <router-view></router-view>
+      <v-container grid-list-md>
+        <v-layout row wrap>
+          <v-flex xs12>
+            <router-view></router-view>
+          </v-flex>
+        </v-layout>
+      </v-container>
     </v-content>
+    <v-footer></v-footer>
   </v-app>
 </template>
 
 <script>
-import Footer from './components/Footer.vue'
-
 export default {
   name: 'App',
-  components: {
-    Footer
-  },
+  components: {},
   data () {
     return {
       //

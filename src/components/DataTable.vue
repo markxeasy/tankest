@@ -11,7 +11,7 @@
       <td class="text-xs-right">{{ data.item.wins }}</td>
       <td class="text-xs-right">{{ data.item.losses }}</td>
       <td class="text-xs-right">{{ data.item.points }}</td>
-      <td class="text-xs-right">{{ data.item.chance }}%</td>
+      <td class="text-xs-right">{{ (data.item.chance * 100) }}%</td>
     </template>
   </v-data-table>
 </template>
@@ -22,7 +22,7 @@
 export default {
   name: 'DataTable',
   props: {
-      teams: Object
+      teams: Array
   },
   data () {
     return {
