@@ -42,7 +42,6 @@ var _prepareLotteryData = function(teams) {
     });
 
     lottery.sortNonLotteryTeams();
-    console.log(lottery.nonLotteryTeams);
     return lottery;
 }
 
@@ -67,7 +66,6 @@ var doLottery = function(teams) {
     }
     draftOrder = draftOrder.concat(lotteryData.nonLotteryTeams);
     draftOrder = arrayHelper.updatePickOrderValue(draftOrder);
-    console.log(draftOrder);
     return draftOrder;
 }
 
