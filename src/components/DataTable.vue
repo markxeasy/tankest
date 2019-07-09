@@ -7,11 +7,11 @@
   >
     <template v-slot:items="data">
       <td>{{ data.item.pick }}</td>
-      <td class="text-xs-middle">{{ data.item.name }}</td>
-      <td class="text-xs-right">{{ data.item.wins }}</td>
-      <td class="text-xs-right">{{ data.item.losses }}</td>
-      <td class="text-xs-right">{{ data.item.points }}</td>
-      <td class="text-xs-right">{{ (data.item.chance * 100) }}%</td>
+      <td class="text-xs-middle column-narrow">{{ data.item.name }}</td>
+      <td class="text-xs-left text-lg-right column-narrow">{{ (data.item.chance * 100) }}%</td>
+      <td class="text-xs-left text-lg-right column-narrow">{{ data.item.wins }}</td>
+      <td class="text-xs-left text-lg-right column-narrow">{{ data.item.losses }}</td>
+      <td class="text-xs-left text-lg-right column-narrow">{{ data.item.points }}</td>
     </template>
   </v-data-table>
 </template>
@@ -31,40 +31,46 @@ export default {
     return {
         headers: [
           {
-            text: 'Scelta',
+            text: 'Pick',
             align: 'left',
             sortable: true,
-            value: 'pick'
+            value: 'pick',
+            class: 'column-narrow'
           },
           {
             text: 'Squadra',
             align: 'left',
             sortable: false,
-            value: 'name'
+            value: 'name',
+            class: 'column-narrow'
+          },
+          { 
+            text: ' Prob. pick #1',
+            align: 'left',
+            sortable: true, 
+            value: 'chance',
+            class: 'column-narrow'
           },
           { 
             text: 'Vittorie', 
-            align: 'right',
+            align: 'left',
             sortable: true,
-            value: 'wins' 
+            value: 'wins',
+            class: 'column-narrow'
           },
           { 
             text: 'Sconfitte', 
-            align: 'right',
+            align: 'left',
             sortable: true,
-            value: 'losses' 
+            value: 'losses',
+            class: 'column-narrow'
           },
           { 
             text: 'Punti totali',
-            align: 'right',
+            align: 'left',
             sortable: true,
-            value: 'points' 
-          },
-          { 
-            text: 'Probab. scelta #1',
-            align: 'right',
-            sortable: true, 
-            value: 'chance' 
+            value: 'points',
+            class: 'column-narrow'
           }
         ],
         pageItems: [20]
@@ -74,4 +80,7 @@ export default {
 </script>
 
 <style>
+.column-narrow {
+  padding: 1.5rem !important;
+}
 </style>

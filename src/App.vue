@@ -4,7 +4,7 @@
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase">
         <span class="white--text">Tankest</span>
-        <span class="font-weight-light">- per il piccolo Hinkie in ognuno di noi</span>
+        <span class="font-weight-light hidden-sm-and-down">- Hinkie approved</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
