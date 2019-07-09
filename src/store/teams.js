@@ -1,17 +1,25 @@
-// Import fake team data
-import MOCK_TEAMS from '../assets/data/teams.json'
+// Import VueJS
+import Vue from "vue";
 
-var teams = {
-    debug: false,
-    state: {
-        teams: MOCK_TEAMS
+// Import base team data
+import BASE_TEAMS from '../assets/data/teams.json'
+
+// Helpers
+const teamHelper = require('../helpers/teamHelper');
+const lotteryHelper = require('../helpers/lotteryHelper');
+
+export const store = Vue.observable({
+    teams: lotteryHelper.prepareTeams(teamHelper.formatTeams(BASE_TEAMS))
+});
+
+export const mutations = {
+    prepareTeams() {
+        store.teams = lotteryHelper.prepareTeams(store.teams);
     },
-    setMessageAction(newValue) {
-        if (this.debug) console.log('setMessageAction triggered with', newValue)
-        this.state.message = newValue
+    simLottery() {
+        store.teams = lotteryHelper.doLottery(store.teams);
     },
-    clearMessageAction() {
-        if (this.debug) console.log('clearMessageAction triggered')
-        this.state.message = ''
+    resetTeams() {
+        store.teams = lotteryHelper.prepareTeams(teamHelper.formatTeams(BASE_TEAMS));
     }
 }

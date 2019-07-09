@@ -1,0 +1,17 @@
+[{
+        "title": "Edward Scissorhands Rule",
+        "description": "Il numero massimo di tagli di giocatori consentiti per una giornata è 2, il numero può aumentare solo e unicamente nel caso in cui il giocatore tagliato possa essere soggetto ad un'eccezione (vedi regole successive sulle protezioni dei giocatori). Questo per prevenire cambi di squadre intere per sfruttare le giornate in cui le contenders giocano contro i vari carri armati della lega, soprattutto post All Star Break."
+    },
+    {
+        "title": "\"Non ci siamo lasciati, siamo solo in un momento di pausa\" Rule",
+        "description": "Salvo tagli dovuti da eccezioni (vedi regole successive sulle protezioni dei giocatori) non è consentito tagliare un giocatore e riprenderlo immediatamente nella giornata successiva. Questo per prevenire di lasciar fuori giocatori solo per motivi di calendario per riprenderli immediatamente. Questa sospensione vale solo per 1 turno, quindi dopo 2 giornate dal taglio è possibile riprendere qualsiasi giocatore senza alcun limite."
+    },
+    {
+        "title": "Dea Bendata Rule",
+        "description": "Nel caso in cui un giocatore non sia stato tagliato da una squadra per infortunio ma abbia saltato la partita della giornata precedente (deve quindi aver avuto 0 minuti all'attivo e 0 punti di conseguenza) è possibile tagliarlo riprendendolo la giornata successiva in quanto si è già subito una \"perdita\" non ricevendo nessun punto per il giocatore. Questa regola è pensata per combattere chi viene afflitto da tanti infortuni minori che fanno saltare 1-3 giornate rimanendo sempre in dubbio fino a poche ore dalla partita."
+    },
+    {
+        "title": "Robben Rule",
+        "description": "Ogni squadra avrà a disposizione 1 slot infortuni. In questo slot è possibile assegnare qualsiasi giocatore infortunato della propria rosa liberandolo da qualsiasi restrizione per quanto riguarda il taglio e l'inserimento in rosa per lo stesso. L'assegnamento nello slot va comunicato chiaramente nella chat altrimenti il giocatore è da considerarsi come tagliato per infortunio (per infortuni di una durata maggiore alla settimana) o come Free Agent (per infortuni di una durata di una settimana o meno)."
+    }
+]

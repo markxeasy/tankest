@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import TankTable from './pages/TankTable.vue'
+import Rules from './pages/Rules.vue'
 import LeagueSchedule from './pages/LeagueSchedule.vue'
 import HallOfFame from './pages/HallOfFame.vue'
 import NotFound from './pages/NotFound.vue'
@@ -16,12 +17,17 @@ export default new Router({
             component: TankTable
         },
         {
+            path: '/regolamento',
+            name: 'regolamento',
+            component: Rules
+        },
+        {
             path: '/calendario',
             name: 'calendario',
             component: LeagueSchedule
         },
         {
-            path: '/hall-of-fame',
+            path: '/hof',
             name: 'hall-of-fame',
             component: HallOfFame
         },

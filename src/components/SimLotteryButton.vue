@@ -3,21 +3,13 @@
 </template>
 
 <script>
-// Helpers
-const lotteryHelper = require('../helpers/lotteryHelper');
+// Import state management methods and store
+import { mutations } from "../store/teams";
 
 export default {
   name: 'SimLotteryButton',
-  props: {
-      teams: Array
-  },
-  data () {
-    return {}
-  },
   methods: {
-    simLottery() {
-      this.teams = lotteryHelper.doLottery(this.teams);
-    }
+    simLottery: mutations.simLottery
   }
 }
 </script>

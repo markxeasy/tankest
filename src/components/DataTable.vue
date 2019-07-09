@@ -17,12 +17,15 @@
 </template>
 
 <script>
-
+// Import state management methods and store
+import { store } from "../store/teams";
 
 export default {
   name: 'DataTable',
-  props: {
-      teams: Array
+  computed: {
+    teams() {
+        return store.teams;
+    }
   },
   data () {
     return {

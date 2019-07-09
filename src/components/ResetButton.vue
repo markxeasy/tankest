@@ -1,18 +1,15 @@
 <template>
-  <v-btn class="text-uppercase">reset</v-btn>
+  <v-btn class="text-uppercase" v-on:click="resetTeams()">reset</v-btn>
 </template>
 
 <script>
+// Import state management methods and store
+import { mutations } from "../store/teams";
+
 export default {
   name: 'ResetButton',
-  props: {},
-  data () {
-    return {}
-  },
   methods: {
-    resetOrder() {
-      // TO DO
-    }
+    resetTeams: mutations.resetTeams
   }
 }
 </script>
