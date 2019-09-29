@@ -1,13 +1,13 @@
 <template>
   <v-app>
-    <v-toolbar app color="orange">
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+    <v-app-bar app color="orange">
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="headline text-uppercase">
         <span class="white--text">Tankest</span>
         <span class="font-weight-light hidden-sm-and-down">- Hinkie approved</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-    </v-toolbar>
+    </v-app-bar>
 
     <v-content>
       <!-- route outlet -->
@@ -28,19 +28,19 @@
           <v-list class="pt-0" dense>
             <v-divider light></v-divider>
 
-            <v-list-tile
+            <v-list-item
               v-for="item in items"
               :key="item.title"
               :href="item.link"
             >
-              <v-list-tile-action>
+              <v-list-item-action>
                 <v-icon>{{ item.icon }}</v-icon>
-              </v-list-tile-action>
+              </v-list-item-action>
 
-              <v-list-tile-content>
-                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-              </v-list-tile-content>
-            </v-list-tile>
+              <v-list-item-content>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
         </v-navigation-drawer>
       </v-container>
