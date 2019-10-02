@@ -4,7 +4,7 @@
         "wins": 25,
         "losses": 30,
         "points": 12233.7,
-        "pick": 5
+        "pick": 4
     },
     {
         "name": "AC Manila",
@@ -12,7 +12,7 @@
         "wins": 41,
         "losses": 14,
         "points": 14050.83,
-        "pick": 11
+        "pick": 10
     },
     {
         "name": "FC Arcobaleno",
@@ -20,7 +20,7 @@
         "wins": 33,
         "losses": 22,
         "points": 14065.96,
-        "pick": 7
+        "pick": 6
     },
     {
         "name": "Team DeLu",
@@ -28,7 +28,7 @@
         "wins": 37,
         "losses": 18,
         "points": 13771.92,
-        "pick": 10
+        "pick": 9
     },
     {
         "name": "Tank For The Future",
@@ -52,7 +52,7 @@
         "wins": 31,
         "losses": 24,
         "points": 13261.48,
-        "pick": 6
+        "pick": 5
     },
     {
         "name": "MC Town Winepress",
@@ -68,15 +68,7 @@
         "wins": 36,
         "losses": 19,
         "points": 13659.87,
-        "pick": 8
-    },
-    {
-        "name": "All Eyes North",
-        "abbreviation": "AEN",
-        "wins": 25,
-        "losses": 30,
-        "points": 12132.83,
-        "pick": 4
+        "pick": 7
     },
     {
         "name": "Allevamento Kings",
@@ -84,6 +76,6 @@
         "wins": 0,
         "losses": 0,
         "points": 0,
-        "pick": 9
+        "pick": 8
     }
 ]

@@ -5,14 +5,14 @@
     :items-per-page="pageItems"
     class="elevation-1"
   >
-    <template v-slot:items="data">
+    <!-- <template v-slot:items="data">
       <td>{{ data.item.pick }}</td>
       <td class="text-xs-middle column-narrow">{{ data.item.name }}</td>
-      <td class="text-xs-left text-lg-right column-narrow">{{ (data.item.chance * 100) }}%</td>
+      <td class="text-xs-left text-lg-right column-narrow">{{ data.item.chance }}%</td>
       <td class="text-xs-left text-lg-right column-narrow">{{ data.item.wins }}</td>
       <td class="text-xs-left text-lg-right column-narrow">{{ data.item.losses }}</td>
       <td class="text-xs-left text-lg-right column-narrow">{{ data.item.points }}</td>
-    </template>
+    </template> -->
   </v-data-table>
 </template>
 
