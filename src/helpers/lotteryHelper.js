@@ -5,7 +5,7 @@ const Lottery = require('../factories/lottery');
 const arrayHelper = require('./arrayHelper');
 const mathHelper = require('./mathHelper');
 
-const _oddsMapping = [0.37, 0.27, 0.19, 0.08, 0.04, 0.02, 0.01, 0, 0, 0];
+const _oddsMapping = [0.37, 0.27, 0.19, 0.09, 0.05, 0.02, 0.01, 0, 0, 0];
 
 // Assign the odds from the mapping based on team standing
 var _updateTeamLotteryOdds = function(teams) {
