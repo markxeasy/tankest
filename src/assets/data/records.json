@@ -11,5 +11,19 @@
         "value": "14065.96",
         "icon": "finance",
         "color": "#1F7087"
+    },
+    {
+        "title": "Premio Mercante In Fiera",
+        "holder": "SkinHeadOi!",
+        "value": "Per la quantità incredibile di scambi fatti",
+        "icon": "swap-horizontal-bold",
+        "color": "#B20000"
+    },
+    {
+        "title": "MVP Tankest",
+        "holder": "Mohamed Bamba",
+        "value": "Perché tutte le altre risposte sarebbero semplicemente sbagliate",
+        "icon": "star",
+        "color": "#004C00"
     }
 ]

@@ -18,7 +18,7 @@
         size="125"
         tile
       >
-        <v-icon>{{record.icon}}</v-icon>
+        <v-icon x-large>mdi-{{record.icon}}</v-icon>
       </v-list-item-avatar>
     </v-list-item>
   </v-card>

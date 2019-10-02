@@ -2,7 +2,7 @@
   <v-data-table
     :headers="headers"
     :items="teams"
-    :rows-per-page-items="pageItems"
+    :items-per-page="pageItems"
     class="elevation-1"
   >
     <template v-slot:items="data">
@@ -73,7 +73,7 @@ export default {
             class: 'column-narrow'
           }
         ],
-        pageItems: [20]
+        pageItems: 15
     }
   }
 }
